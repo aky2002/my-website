@@ -110,7 +110,7 @@ h3 {
 }
 
 p {
-  color: violet;
+  color: purple;
   font-size: 1em;
   font-family: monospace;
   text-align: justify;
@@ -129,6 +129,13 @@ p {
    font-size: 1em;
    font-family: monospace;
    text-align: center;
+}
+
+#dislikes {
+  color: blue;
+  font-size: 1em;
+  font-family: monospace;
+  text-align: center;
 }
 
 h4 {
