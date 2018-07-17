@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- this is how you comment in html -->
+<html>
+  <head>
+    <!-- to connect html with css, always include "rel = stylesheet" -->
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <script src = "mypagejava.js"></script>
+  </head>
+
+  <body>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="me.jpg" style = "width:50%" "height:50%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="me2.jpg" style = "width:50%" "height:50%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="me3.jpg" style = "width:50%" "height:50%">
+      <div class="text"></div>
+    </div>
+
+  <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- when "hi, my name is Alyson is clicked", changes text -->
+    <h3 id = "heading" onclick = "changeHeading()">
+      hi, my name is Alyson :)
+    </h3>
+
+    <h3 id = "aboutme">
+      About Me
+    </h3>
+
+    <p> I am an incoming junior at Homestead High School located in Cupertino, CA.
+        I am currently in the Girls Who Code Summer Immersion Program at Amazon Lab126.
+        In my pass time, I enjoy binge watching my favorite TV shows or hanging out with my friends.
+        Music is also a big part of my life, as I get to express myself through different genres.
+    </p>
+
+    <p id = "likes">
+      Likes: TV Shows, Movies, Boba, Ramen, Sleep
+    </p>
+
+    <h3 id = "followme">
+      Follow Me Here
+    </h3>
+    <p id = "links">
+      <a href = "https://www.instagram.com/alyson.ky/"><img src = "instalogo.png" width = "50" height = "50"></a>
+      <a href = "https://www.linkedin.com/in/alyson-yi-22a09b167/"><img src = "linkedinlogo.png" width = "50" height = "50"></a>
+    </p>
+
+
+  </body>
+</html>
