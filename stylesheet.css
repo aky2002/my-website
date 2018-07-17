@@ -114,6 +114,8 @@ p {
   font-size: 1em;
   font-family: monospace;
   text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #aboutme {
